@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kayak",
+      "description": "A boat for one person",
+      "category": "Watersports",
+      "price": 275
+    },
+    {
+      "id": 2,
+      "name": "Lifejacket",
+      "description": "Protective and Fashionable",
+      "category": "Watersports",
+      "price": 48.95
+    },
+    {
+      "id": 3,
+      "name": "Soccer Ball",
+      "description": "FIFA-approved size and weight",
+      "category": "Soccer",
+      "price": 19.5
+    },
+    {
+      "id": 4,
+      "name": "Corner Flags",
+      "description": "Give your playing field a professional touch",
+      "category": "Soccer",
+      "price": 34.95
+    },
+    {
+      "id": 5,
+      "name": "Stadium",
+      "description": "Flat-packed 35,000-seat stadium",
+      "category": "Soccer",
+      "price": 79500
+    },
+    {
+      "id": 6,
+      "name": "Thinking Cap",
+      "description": "Improve your brain efficiency by 75%",
+      "category": "Chess",
+      "price": 16
+    },
+    {
+      "id": 7,
+      "name": "Unsteady Chair",
+      "description": "Secretly give your opponent a disadvantage",
+      "category": "Chess",
+      "price": 16
+    },
+    {
+      "id": 8,
+      "name": "Human Chess Board",
+      "description": "A fun game for the family",
+      "category": "Chess",
+      "price": 75
+    },
+    {
+      "id": 9,
+      "name": "Bling-Bling King",
+      "description": "Gold-plated, diamond studded King",
+      "category": "Chess",
+      "price": 1200
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "someguy",
+      "street": "somewhere #666",
+      "city": "Somecity",
+      "state": "somestate",
+      "zip": "66642",
+      "country": "Somecountry",
+      "products": [
+        {
+          "count": 3,
+          "price": 48.95,
+          "name": "Lifejacket"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "someguy",
+      "street": "somewhere #666",
+      "city": "Somecity",
+      "state": "somestate",
+      "zip": "66642",
+      "country": "Somecountry",
+      "giftwrap": true,
+      "products": [
+        {
+          "count": 1,
+          "id": 1,
+          "price": 275,
+          "name": "Kayak"
+        },
+        {
+          "count": 1,
+          "id": 2,
+          "price": 48.95,
+          "name": "Lifejacket"
+        },
+        {
+          "count": 1,
+          "id": 3,
+          "price": 19.5,
+          "name": "Soccer Ball"
+        }
+      ]
+    },
+    {
+      "name": "someguy",
+      "street": "somewhere #666",
+      "city": "Somecity",
+      "state": "somestate",
+      "zip": "66642",
+      "country": "Somecountry",
+      "products": [
+        {
+          "count": 1,
+          "id": 1,
+          "price": 275,
+          "name": "Kayak"
+        },
+        {
+          "count": 1,
+          "id": 2,
+          "price": 48.95,
+          "name": "Lifejacket"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+        "username": "admin",
+        "password": "admin1234"
+    }
+  ]
+}
